@@ -72,22 +72,19 @@ Now, lets dive into the lib folder which has the main code for the application.
 
 ```
 1- bloc — Contains a cubit file which is simplified form of bloc to make bloc simple to use. It handles the emerging of new states smooth and easily.
+
 2- model — Contains a representation of the response returned from the API request.
+
 3- repository — The repository makes the http request and it gets the data and it returns to the block and then the block returns to the ui.
+
 4- screens — This directory contains all the ui of your application. Each screen is located in a separate folder making it easy to combine group of files related to that particular screen as shown below.
+
 5- service — Contains a http file which  will make the get request.
+
 8- main.dart — This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
+
 ```
-```
-1- constants - All the application level constants are defined in this directory with-in their respective files. This directory contains the constants for `theme`, `dimentions`, `api endpoints`, `preferences` and `strings`.
-2- data - Contains the data layer of your project, includes directories for local, network and shared pref/cache.
-3- stores - Contains store(s) for state-management of your application, to connect the reactive data of your application with the UI.
-4- ui — Contains all the ui of your project, contains sub directory for each screen.
-5- util — Contains the utilities/common functions of your application.
-6- widgets — Contains the common widgets for your applications. For example, Button, TextField etc.
-7- routes.dart — This file contains all the routes for your application.
-8- main.dart - This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
-```
+
 ### bloc
 
 Contains a cubit file which is simplified form of bloc to make bloc simple to use. It handles the emerging of new states smooth and easily
