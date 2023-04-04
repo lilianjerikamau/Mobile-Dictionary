@@ -5,7 +5,8 @@ This is a dictionary application using block state management .The application u
 
 ## Author
 
-Name :Lilian Kamau
+Name :Lilian Kamau.
+
 Github link [https://github.com/lilianjerikamau/Mobile-Dictionary]
 
 # Technologies
