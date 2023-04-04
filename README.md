@@ -71,12 +71,12 @@ lib/
 Now, lets dive into the lib folder which has the main code for the application.
 
 ```
-1- bloc - Contains a cubit file which is simplified form of bloc to make bloc simple to use. It handles the emerging of new states smooth and easily.
-2- model - Contains a representation of the response returned from the API request.
-3- repository - The repository makes the http request and it gets the data and it returns to the block and then the block returns to the ui.
-4- screens - This directory contains all the ui of your application. Each screen is located in a separate folder making it easy to combine group of files related to that particular screen as shown below.
-5- service - Contains a http file which  will make the get request.
-8- main.dart - This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
+1- bloc — Contains a cubit file which is simplified form of bloc to make bloc simple to use. It handles the emerging of new states smooth and easily.
+2- model — Contains a representation of the response returned from the API request.
+3- repository — The repository makes the http request and it gets the data and it returns to the block and then the block returns to the ui.
+4- screens — This directory contains all the ui of your application. Each screen is located in a separate folder making it easy to combine group of files related to that particular screen as shown below.
+5- service — Contains a http file which  will make the get request.
+8- main.dart — This is the starting point of the application. All the application level configurations are defined in this file i.e, theme, routes, title, orientation etc.
 ```
 
 ### bloc
