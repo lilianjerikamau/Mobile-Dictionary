@@ -93,7 +93,7 @@ bloc/
 
 ### model
 
-The store is where all your application state lives in flutter. The Store is basically a widget that stands at the top of the widget tree and passes it's data down using special methods. In-case of multiple stores, a separate folder for each store is created as shown in the example below:
+Contains a representation of the reponse returned from the API request as shown in the example below:
 
 ```
 model/
@@ -103,7 +103,7 @@ model/
 
 ### repository
 
-The store is where all your application state lives in flutter. The Store is basically a widget that stands at the top of the widget tree and passes it's data down using special methods. In-case of multiple stores, a separate folder for each store is created as shown in the example below:
+The repository makes the http request and it gets the data and it returns to the block and then the block returns to the ui:
 
 ```
 repository/
@@ -112,7 +112,7 @@ repository/
 ```
 ### screens
 
-This directory contains all the ui of your application. Each screen is located in a separate folder making it easy to combine group of files related to that particular screen. All the screen specific widgets will be placed in `widgets` directory as shown in the example below:
+This directory contains all the ui of your application. Each screen is located in a separate folder making it easy to combine group of files related to that particular screen as shown below:
 
 ```
 screens/
@@ -126,7 +126,7 @@ screens/
 
 ### service
 
-Contains the common file(s) and utilities used in a project. The folder structure is as follows:
+Contains a http file which  will make the get request:
 
 ```
 service/
