@@ -9,6 +9,18 @@ Name :Lilian Kamau.
 
 Github link [https://github.com/lilianjerikamau/Mobile-Dictionary]
 
+## Introduction
+
+An increasing number of people use their smart phones for a several of reason either to connect with friends, conduct e-commerce transactions, browse the Internet, etc. There is therefore an urgent need for a dictionary, to embrace this new mode of information dissemination. Due to a variety of reasons, people find all terms difficult to memorize or just even understand. They prefer to use their mobile smart phone to get information quickly to get the immediate answer for their query. This is an attempt to provide a mobile application solution.
+
+## Challenges
+
+Time limitation 
+
+## Future Plans
+
+Implement voice pronunciation feature
+
 # Technologies
 
 Flutter, Dart, bloc state management,Free Dictionary API
