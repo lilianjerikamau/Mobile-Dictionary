@@ -39,47 +39,6 @@ or watch command in order to keep the source code synced automatically:
 flutter packages pub run build_runner watch
 ```
 
-## Hide Generated Files
-
-In-order to hide generated files, navigate to `Android Studio` -> `Preferences` -> `Editor` -> `File Types` and paste the below lines under `ignore files and folders` section:
-
-```
-*.inject.summary;*.inject.dart;*.g.dart;
-```
-
-In Visual Studio Code, navigate to `Preferences` -> `Settings` and search for `Files:Exclude`. Add the following patterns:
-```
-**/*.inject.summary
-**/*.inject.dart
-**/*.g.dart
-```
-
-## Boilerplate Features:
-
-* Splash
-* Login
-* Home
-* Routing
-* Theme
-* Dio
-* Database
-* MobX (to connect the reactive data of your application with the UI)
-* Provider (State Management)
-* Encryption
-* Validation
-* Code Generation
-* User Notifications
-* Logging
-* Dependency Injection
-* Dark Theme Support (new)
-* Multilingual Support (new)
-* Provider example (new)
-
-### Up-Coming Features:
-
-* Connectivity Support
-* Background Fetch Support
-
 ### Libraries & Tools Used
 
 * [http](https://pub.dev/packages/http)
@@ -126,7 +85,7 @@ All the business logic of your application will go into this directory, it repre
 
 ```
 bloc/
-|- dictionary_cubit.dart
+  |- dictionary_cubit.dart
     
 
 
@@ -138,7 +97,7 @@ The store is where all your application state lives in flutter. The Store is bas
 
 ```
 model/
-|- word_response.dart
+  |- word_response.dart
     
 ```
 
@@ -148,7 +107,7 @@ The store is where all your application state lives in flutter. The Store is bas
 
 ```
 repository/
-|- word_response.dart
+  |- word_response.dart
 
 ```
 ### screens
@@ -171,7 +130,7 @@ Contains the common file(s) and utilities used in a project. The folder structur
 
 ```
 service/
-|- http_service.dart
+  |- http_service.dart
 ```
 
 
