@@ -81,7 +81,7 @@ Now, lets dive into the lib folder which has the main code for the application.
 
 ### bloc
 
-All the business logic of your application will go into this directory, it represents the data layer of your application. It is sub-divided into three directories `local`, `network` and `sharedperf`, each containing the domain specific logic. Since each layer exists independently, that makes it easier to unit test. The communication between UI and data layer is handled by using central repository.
+Contains a cubit file which is simplified form of bloc to make bloc simple to use. It handles the emerging of new states smooth and easily
 
 ```
 bloc/
