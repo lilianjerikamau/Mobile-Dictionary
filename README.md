@@ -20,6 +20,7 @@ Time limitation
 ## Future Plans
 
 Implement voice pronunciation feature
+Implement different application themes
 
 # Technologies
 
@@ -206,7 +207,7 @@ class MyApp extends StatelessWidget {
 ```
 MIT License
 
-Copyright (c) 2022 Vijay R
+Copyright (c) 2022 Lilian Kamau
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
